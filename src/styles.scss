@@ -48,19 +48,28 @@ html {
       background: pink;
       flex: 1;
       display: flex;
-      flex-direction: column; 
+      flex-direction: column;
+      .flexBlock {
+        flex: 1;
+      } 
     }
     .item2 {
       background: violet;
       flex: 1.5;
       display: flex;
-      flex-direction: column; 
+      flex-direction: column;
+      .flexBlock {
+        flex: 1;
+      } 
     }
     .item3 {
       background: coral;
       flex: 1;
       display: flex;
-      flex-direction: column; 
+      flex-direction: column;
+      .flexBlock {
+        flex: 1;
+      } 
     }
   }
 }
