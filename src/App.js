@@ -7,14 +7,14 @@ function App() {
       <div className="viewer">
         <div className="innerView">
           <div className="page">
-            <div className="left-content">left</div>
-            <div className="middle-content">middle</div>
-            <div className="right-content">right</div>
+            <div className="item1">1</div>
+            <div className="item2">2</div>
+            <div className="item3">3</div>
           </div>
         </div>
       </div>
     </div>
-  
+
   );
 }
 
