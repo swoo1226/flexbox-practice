@@ -21,14 +21,46 @@
     .left-content {
       flex: 1;
       background-color: pink;
+      display: flex;
+      flex-direction: column;
+      // .desc {
+      //   // position: absolute;
+      //   // bottom: 50%;
+      //   text-align: center;
+      //   width: 100;
+      //   position: absolute;
+      //   bottom: 50%;
+      // }
+      .first {
+        align-self: flex-start;
+      }
+      .second {
+        align-self: flex-start;
+      }
+      .third {
+        align-self: center;
+      }
     }
     .middle-content {
       flex: 1.5;
       background-color: violet;
+      .desc {
+        position: absolute;
+        bottom: 50%;
+        text-align: center;
+        width: 26.8%;
+        background-color: black;
+      }
     }
     .right-content {
       flex: 1;
       background-color: coral;
+      .desc {
+        position: absolute;
+        top: 50%;
+        text-align: center;
+        width: 100;
+      }
     }
   }
 }
